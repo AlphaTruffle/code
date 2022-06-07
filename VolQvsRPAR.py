@@ -16,7 +16,7 @@ pig_hedges.append({})
 pig_cashpct.append(0.0)
 pig_hedgepct.append(0.0)
 
-pig_rebaldates.append('2022-02-24') ## 24 May 2022: Risk Management Exited Commodity Shorts.
+pig_rebaldates.append('2022-02-24') ## 24 Feb 2022: Risk Management Exited Commodity Shorts.
 pig_shorts.append({'TLT','EMB','IWM','DIA','SPY','QQQ','EEM','VGK','REM','VNQ','BITO','LQD','HYG','IGSB','AAPL','AMZN','FB','GOOGL','MSFT','NVDA'})
 pig_longs.append({'IEI','SHY','SHV','BIL','UUP','FXF','FXY','VXX','GLD'})
 pig_hedges.append({})
