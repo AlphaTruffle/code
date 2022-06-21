@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from datetime import date, timedelta
 matplotlib.use('MacOSX') #Use 'TkAgg' if not on MacOSX 
-%matplotlib inline #For Jupyter Notebook
 
 pos = {} #Set Up Core Positions for Each Rebalance Date
 pos[pd.to_datetime('2021-11-09')] = dict.fromkeys(['TLT','EMB','IWM','DIA','SPY','QQQ','EEM','VGK','REM','VNQ','BITO','LQD','HYG','IGSB','AAPL','AMZN','FB','GOOGL','MSFT','NVDA','GDX','CPER','GSG'], -1.0) | dict.fromkeys(['IEI','SHY','SHV','BIL','GLD','UUP','FXF','FXY','VXX'], 1.0)
