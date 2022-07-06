@@ -67,7 +67,7 @@ class EightVolSignals(QCAlgorithm):
             # Set Signals Risk On or Risk Off
             if sum(self.Signals.values()) < 4: self.RiskOn = 0.0
             self.Signals["VRatio"] = 1 if self.VRatio > 1 else 0
-            self.Signals["Contango"] = 1 if self.Contango > 0.05 else 0
+            self.Signals["Contango"] = 1 if self.Contango > -0.05 else 0
             self.Signals["ContangoRoll"] = 1 if self.ContangoRoll > 0.1 else 0
             self.Signals["VRP"] = 1 if self.VRP > 0 else 0
             self.Signals["FVRP"] = 1 if self.FVRP > 0 else 0
