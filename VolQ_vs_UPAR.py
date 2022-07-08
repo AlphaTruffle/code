@@ -28,5 +28,5 @@ report = bt.run(bt.Backtest(data=pigprices, strategy=bt.Strategy('Pig ETF Proxy'
                 bt.Backtest(data=parprices, strategy=bt.Strategy('RPAR->UPAR', algos=[bt.algos.SelectAll(), bt.algos.WeighTarget(par), bt.algos.Rebalance()])))
 report.display()
 report.plot()
-plt.title('VolQ Pig Portfolio ETF Proxy\nPerformance Since Inception (9 Nov 2021)')
+plt.title('VolQ Pig Portfolio ETF Proxy\nPerformance Since Inception (9 Nov 2021)\nNo 3x Futures, Options, or Intras')
 plt.show()
